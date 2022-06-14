@@ -8,7 +8,7 @@
         <version>2.7.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>lant.test.oauth2</groupId>
+    <groupId>lan.demo.oauth2</groupId>
     <artifactId>oauth-resource-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>oauth-resource-server</name>

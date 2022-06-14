@@ -1,4 +1,4 @@
-package lant.test.oauth2.oauthresourceserver;
+package lan.demo.oauth2.oauthresourceserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

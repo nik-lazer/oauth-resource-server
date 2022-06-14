@@ -1,4 +1,4 @@
-package lant.test.oauth2.oauthresourceserver;
+package lan.demo.oauth2.oauthresourceserver;
 
 import com.azure.spring.cloud.autoconfigure.aad.implementation.oauth2.AadOAuth2AuthenticatedPrincipal;
 import org.springframework.security.core.Authentication;

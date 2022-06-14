@@ -1,4 +1,4 @@
-package lant.test.oauth2.oauthresourceserver;
+package lan.demo.oauth2.oauthresourceserver;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;

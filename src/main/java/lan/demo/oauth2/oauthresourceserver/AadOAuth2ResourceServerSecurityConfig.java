@@ -1,4 +1,4 @@
-package lant.test.oauth2.oauthresourceserver;
+package lan.demo.oauth2.oauthresourceserver;
 
 import com.azure.spring.cloud.autoconfigure.aad.AadResourceServerWebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
