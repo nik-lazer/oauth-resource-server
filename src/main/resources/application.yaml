@@ -1,10 +1,10 @@
 springdoc:
   oAuthFlow:
-    authorizationUrl: https://login.microsoftonline.com/${lan.demo.oauth2.tenant}/oauth2/v2.0/authorize
+    authorizationUrlAzure: https://login.microsoftonline.com/${lan.demo.oauth2.azure.tenant}/oauth2/v2.0/authorize
   swagger-ui:
     oauth:
-      client-id: ${lan.demo.oauth2.clientId}
-      scopes: ${lan.demo.oauth2.swagger.scopes}
+      client-id: ${lan.demo.oauth2.azure.clientId}
+      scopes: ${lan.demo.oauth2.azure.swagger.scopes}
   paths-to-match: /api/**
 
 spring:
@@ -13,7 +13,7 @@ spring:
       active-directory:
         enabled: true
         credential:
-          client-id: ${lan.demo.oauth2.clientId}
+          client-id: ${lan.demo.oauth2.azure.clientId}
         profile:
-          tenant-id: ${lan.demo.oauth2.tenant}
-        app-id-uri: ${lan.demo.oauth2.app-id-uri}
+          tenant-id: ${lan.demo.oauth2.azure.tenant}
+        app-id-uri: ${lan.demo.oauth2.azure.app-id-uri}

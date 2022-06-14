@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Configuration;
             type = SecuritySchemeType.OAUTH2,
             scheme = "bearer", bearerFormat = "JWT",
             in = SecuritySchemeIn.HEADER,
-            flows = @OAuthFlows(implicit = @OAuthFlow(authorizationUrl = "${springdoc.oAuthFlow.authorizationUrl}"))
+            flows = @OAuthFlows(implicit = @OAuthFlow(authorizationUrl = "${springdoc.oAuthFlow.authorizationUrlAzure}"))
     )
 )
 public class SwaggerConfig {
