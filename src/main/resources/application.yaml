@@ -1,0 +1,19 @@
+springdoc:
+  oAuthFlow:
+    authorizationUrl: https://login.microsoftonline.com/${lan.demo.oauth2.tenant}/oauth2/v2.0/authorize
+  swagger-ui:
+    oauth:
+      client-id: ${lan.demo.oauth2.clientId}
+      scopes: ${lan.demo.oauth2.swagger.scopes}
+  paths-to-match: /api/**
+
+spring:
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        credential:
+          client-id: ${lan.demo.oauth2.clientId}
+        profile:
+          tenant-id: ${lan.demo.oauth2.tenant}
+        app-id-uri: ${lan.demo.oauth2.app-id-uri}
